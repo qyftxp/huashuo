@@ -66,7 +66,8 @@ create table customer(
 --t8.流水Bill 要有2个表 -bid=date+cid  did=date+cid+pid
 create table bill(
 	Bid varchar(100) primary key,
-	Cid int,Btime date, 
+	Cid int,
+	Btime date, 
 	Btotalprice double(8,2) ,
 	Btotalsize int 
 	);
