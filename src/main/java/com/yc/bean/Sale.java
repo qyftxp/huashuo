@@ -5,11 +5,6 @@ public class Sale {
 	private String Sname ;
 	private int Sstatus ;
 	
-	
-	
-	
-	
-	
 	public int getSid() {
 		return Sid;
 	}
